@@ -1,0 +1,623 @@
+body
+{
+    font-family: 'Lato', 'Helvetica nueue', Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4
+{
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+#wrapper
+{
+    background: white;
+}
+
+header
+{
+    border-top: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
+    background-color: #fff;
+    width: 100%;
+    height: 78px;
+    position: relative;
+    overflow: hidden;
+}
+
+.front #foyer,
+#foyer
+{
+    background: transparent url(../img/man-at-office.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 1px;
+}
+
+.services #foyer
+{
+    background-image: url(../img/beaming-ladies.jpg);
+    height: 180px;
+}
+
+.jobs #foyer
+{
+    background-image: url(../img/girl-at-desk.jpg);
+    height: 180px;
+    background-position: 0 50%;
+}
+
+.job-view #foyer
+{
+    height: 40px;
+}
+
+.consult #foyer
+{
+    background-image: url(../img/background-project.jpg);
+    height: 180px;
+    background-color: #000;
+    background-size: initial;
+    background-position: 50% 40%
+}
+
+
+.training #foyer
+{
+    background-image: url(../img/background-training.jpg);
+    background-position: 0 -100px;
+    height: 250px;
+}
+
+
+#foyer.closed
+{
+    height: 40px;
+}
+
+header nav
+{
+    margin-top: 10px;
+}
+
+h1.logo-title
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1.logo-title a
+{
+    background: transparent url(../img/logo-large.png) no-repeat scroll top center;
+    text-indent: -9999px;
+    height: 63px;
+    width: 200px;
+    line-height: 63px;
+    margin-top: 5px;
+    display: block;
+}
+
+#shortmenu
+{
+    margin-top: 15px;
+}
+
+#mainnav .navbar-nav li > a
+{
+    color: #666;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-bottom: 29px;
+}
+
+#mainnav .navbar-nav li > a:hover,
+#mainnav .navbar-nav li > a.active
+{
+    color: #2b7785;
+    color: #522506;
+    background-color: transparent;
+    border-bottom:solid 3px #522506;
+}
+
+#welcome
+{
+    text-align: center;
+}
+
+#welcome h1
+{
+    padding: 1em 0;
+    color: #666;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.75em;
+}
+
+#main
+{
+    padding-bottom: 110px;
+}
+
+footer
+{
+    background: #E9EDBF;
+    min-height: 200px;
+    color: #1D1A19;
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+
+footer a,
+footer a:hover
+{
+    color: #1D1A19;
+}
+
+footer .social-icons a
+{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+footer .social-icons i
+{
+    font-size: 24px;
+}
+
+/*
+#shortmenu.nav-pills li > a
+{
+    color: #666;
+}
+*/
+
+#shortmenu.nav>li>a:hover
+{
+    background-color: #333;
+    color: #fff;
+}
+
+#copyright
+{
+    background: #4A3E3C;
+    color: #F7E2E2;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+#copyright .note
+{
+    height: 50px;
+}
+
+#footermenu li > a,
+#footermenu li > a:hover
+{
+    color: #fff;
+    background: none;
+}
+
+.row-divider
+{
+    margin: 1.5em 0 3em;
+    border: none;
+    border-bottom: 1px dotted #ccc;
+}
+
+.flushtop
+{
+    margin-top: 0;
+}
+
+.services .service
+{
+    height: 210px;
+    overflow: hidden;
+}
+
+
+/** Take from cbs.css **/
+ul#listings
+{
+    list-style: none;
+    list-style-type: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#listings li
+{
+    list-style: none;
+    list-style-type: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+}
+
+ul#listings li > a
+{
+    text-decoration: none;
+    display: block;
+    padding: 16px 13px 12px 13px;
+}
+
+ul#listings li > a > span
+{
+    min-height: 37px;
+    display: block;
+    position: relative;
+}
+
+ul#listings li img
+{
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-right: 13px;
+    position: static;
+    top: auto;
+    left: auto;
+}
+
+ul#listings li .role
+{
+    margin-right: 20px;
+    float: left;
+    position: relative;
+}
+
+ul#listings li .role h3
+{
+    position: static;
+    top: auto;
+    left: auto;
+    width: auto;
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 4px;
+    height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 0;
+}
+
+ul#listings li .role h4
+{
+    font-weight: 400;
+    color: #333;
+    position: static;
+    top: auto;
+    left: auto;
+    white-space: normal;
+    overflow: visible;
+    font-size: 11px;
+    display: inline;
+    text-overflow: ellipsis;
+    margin-top: 0;
+}
+
+ul#listings li .role > span
+{
+    display: inline;
+    margin-left: 0.5em;
+    color: #888;
+    font-size: 12px;
+}
+
+ul#listings li .location
+{
+    float: left;
+    width: 145px;
+    padding: 0 0 7px 13px;
+    position: relative;
+    top: auto;
+    left: auto;
+    text-align: left;
+    color: #888;
+    font-size: 12px;
+}
+
+ul#listings li .location:before
+{
+    color: #bbaaf;
+    content: '';
+    left: 0;
+}
+
+ul#listings li .meta
+{
+    position: relative;
+    top: -1px;
+    float: right;
+    text-align: right;
+    width: 120px;
+}
+
+ul#listings li .meta .type
+{
+    display: block;
+    margin-bottom: 2px;
+}
+
+
+ul#listings li.full-time .type
+{
+    color: #e68a20;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+span.new
+{
+    color: #fff;
+    background-color: #ff8f00;
+    border-radius: 2px;
+    padding: 1px 5px;
+    text-transform: uppercase;
+    font-size: 9px;
+}
+
+span.timestamp
+{
+    color: #999;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.jobs-search-form
+{
+    margin-top: 40px;
+}
+
+
+/* .job-view */
+.company
+{
+    margin-bottom: 25px;
+}
+
+.company h2
+{
+    font-size: 30px;
+    text-transform: none;
+    margin-bottom: 4px;
+    margin-top: 0;
+    font-family: serif;
+}
+
+.company h3
+{
+    text-transform: none;
+    margin-top: 3px;
+    font-size: 16px;
+    font-family: serif;
+}
+
+article.listing #leader
+{
+    margin-bottom: 40px;
+}
+
+.controls
+{
+    margin-top: 15px;
+}
+
+
+article.listing h1
+{
+    margin-top: 0;
+    font-size: 28px;
+}
+
+article.listing .location
+{
+    font-style: italic;
+}
+
+#messages
+{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 400px;
+    overflow-y: scroll;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+
+.job-message
+{
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.job-message:before
+{
+    position: absolute;
+    top: 11px;
+    left: -16px;
+    right: 100%;
+    width: 0;
+    height: 0;
+    display: block;
+    content: " ";
+    border-color: transparent;
+    border-style: solid solid outset;
+    pointer-events: none;
+    border-right-color: #dddddd;
+    border-width: 8px;
+}
+
+.job-message .meta
+{
+    padding: 10px 15px;
+    color: #999;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #eee;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 12px;
+}
+
+.job-message .meta .who
+{
+    font-weight: bold;
+}
+
+.job-message .comment-body:after
+{
+    border-width: 7px;
+    border-right-color: #f7f7f7;
+    margin-top: 1px;
+    margin-left: 2px;
+}
+
+.job-message .comment-body
+{
+    padding: 15px;
+}
+
+
+/* Company styles */
+h1.profile-title
+{
+    font-size: 36px;
+    color: #666;
+}
+
+.company-profile h1.profile-title
+{
+    margin-top: 0;
+}
+
+.applicant .section .navbar-nav,
+.company .section .navbar-nav,
+.admin .section .navbar-nav
+{
+    margin-top: 0.5em;
+    border: solid 1px #e7e7e7;
+    background-image: linear-gradient(to bottom,#fff 0,#f8f8f8 100%);
+    background-repeat: repeat-x;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.10),0 1px 5px rgba(0,0,0,.065);
+}
+
+.applicant .section .navbar-nav li>a,
+.company .section .navbar-nav li>a,
+.admin .section .navbar-nav li>a
+{
+    color: #333;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+
+body.company-profile
+{
+    background: #4A3E3C;
+}
+
+body.company-profile #jobs
+{
+    margin-top: 15px;
+}
+
+
+ul.steps
+{
+    list-style: none;
+    list-style-type: none;
+    list-style-image: none;
+    padding: 0;
+    margin: 0;
+    background: white;
+}
+
+ul.steps li
+{
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    height: 50px;
+}
+
+ul.steps li.first.active
+{
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.5);
+    color: white;
+    background-color: #7E5D3F;
+}
+
+ul.steps li.active.first:after
+{
+    content: "";
+    border-bottom:solid 50px #7E5D3F;
+    border-right: solid 50px transparent;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+ul.steps li.last
+{
+    margin-left: 50px;
+}
+
+ul.steps li.last :before
+{
+    content: "";
+    border-top: solid 50px white;
+    border-left: solid 50px transparent;
+    margin-left: -50px;
+    height: 0;
+}
+
+
+
+p.help-block
+{
+    font-style: italic;
+    font-size: 13px;
+}
+
+.opt-recruit label,
+.opt-recruit a
+{
+    padding-left: 50px;
+}
+
+input#recruitment
+{
+    height: 40px;
+    width: 40px;
+    margin:0 15px 10px -50px;
+}
+
+.create-job
+{
+    display:block;
+    text-indent: -99999px;
+    background: transparent url(../images/create_jobs_header1.png) no-repeat 0 0;
+    height: 58px;
+    margin:0;
+    margin-bottom: -10px;
+}
+
+.company-profile > header
+{
+    margin-bottom: 15px;
+}
+
