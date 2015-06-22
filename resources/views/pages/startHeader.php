@@ -13,7 +13,7 @@
     <nav id="mainnav" class="col-xs-12 col-sm-9 col-md-6" role="navigation">
     <div class="container-fluid">
         <ul class="nav navbar-nav">
-        <li class=" active "><a class=" active " href="{{ URL::route('home') }}">Home</a></li>
+        <li class=" active "><a class=" active " href="{{ HTML::linkRoute('home') }}">Home</a></li>
         <li class=""><a class="" href="{{ URL::route('service') }}">Services</a></li> 
         <li class=""><a class="" href="{{ URL::route('about') }}">About Us</a></li>
         <li class=""><a class="" href="{{ URL::route('job') }}">Find Jobs</a></li>

@@ -1,7 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use App\models\jobsDb;
-class WelcomeController extends Controller {
+class Start extends Controller {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -43,7 +43,7 @@ class WelcomeController extends Controller {
 		// $jobs = jobsDb::where('active', '=', 1)->orderBy('updated_at', 'DESC')->take(10)->skip()->get(); 
 		$name = 'hello';
 
-		return view('pages.home', compact('jobs', 'jobcount'))->render();
+		return view('pages.starthome', compact('jobs', 'jobcount'))->render();
 	}
 
 

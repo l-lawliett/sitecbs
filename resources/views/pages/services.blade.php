@@ -12,6 +12,7 @@ Company:Choices Business Solutions
     @include('pages.headers.jobsHeader')
           <div id="foyer">
                     <div class="jobs-search-form col-xs-12 col-md-8 col-md-offset-2">
+                        
                     <form method="GET" action="{{ URL::route('search') }}" accept-charset="UTF-8" class="form-horizontal"> 
                                <div class="form-group">
                         <div class="panel panel-default">
@@ -31,7 +32,7 @@ Company:Choices Business Solutions
                         </div>
                     </div>
                     </form> {{--end of the form   --}}   
-
+                  
                             </div>
 
 
@@ -40,22 +41,55 @@ Company:Choices Business Solutions
 
                 <div class="container">
                     <div id="main">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-8 col-md-offset-2">
+                      <!--   <div class="row">
+                            <div class="col-xs-12 col-md-8 col-md-offset-2"> -->
+         
+                <section>
+                    <ul id="listings">
+                            @foreach ($results->getCollection()->all()  as $jobSearch)
 
-                                
+                                <li><a data-toggle="modal" data-target="#myModal" href="" onclick="mod('{{ $jobSearch->title}}','{{ $jobSearch->location}}', '{{ $jobSearch->description}}')">{{ $jobSearch->title }}</a></li>
+                                @include('pages.modal')
+                            <!-- <li><a href="#">Junior Accountant</a></li>
+                            <li><a href="#">Trading Intern at NCB Ltd.</a></li>
+                            <li><a href="#">Production Manager</a></li> -->
+           
+                            @endforeach
+                             
 
-                                <ul id="listings">
-                                        
-                                </ul>
+                        </ul>
+                         
+                         
+                            <script type="text/javascript">
+                                function mod(x,y,z){
+
+                                var test = x;
+                                var test2 = y;
+                                var test3 = z;
+                               // console.log(alert("JobTitle:  " + test));
+                               // console.log(alert("Location:  " + test2));
+                               // console.log(alert("Description:  " + test3));
+
+                               document.getElementById("myModalLabel").innerHTML = "Job Title: " + "<b>" + test+ "</b>";
+                               document.getElementById("locat").innerHTML = "Location: " + test2;
+                               document.getElementById("des").innerHTML =test3;
+
+                                }
+                               
+                               
+                            </script>
+                            <?php echo $results->render(); ?>
+                        </section>
+                            </div>
                                 
-                            </div>
-                            <div id="contextmenu" class="context-menu col-xs-12 col-md-3">
-                            </div>
-                        </div> <!-- end: .row -->
+                           <!--  <div id="contextmenu" class="context-menu col-xs-12 col-md-3">
+                            </div> -->
+                      <!--   </div> <!-- end: .row -->
+
                         </div> <!-- end: main -->
 
                     </div> <!-- end: container -->
+
 
                     <div id="dialog" class="modal fade in">
                         <div class="modal-dialog">

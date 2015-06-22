@@ -41,7 +41,9 @@ class AuthController extends Controller {
 
     	if (Auth::check())
 		{
-		    echo "IS authenticated";
+		   	$authe = "IS authenticated";
+		   	return $authe;
+		   	
 		}else{
 
 			return redirect()->away('localhost/cbs/cbs/public');

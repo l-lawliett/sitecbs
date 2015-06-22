@@ -11,14 +11,19 @@
 |
 */
 
-// Route::get('/', 'WelcomeController@index');
+//Route::get('/', 'WelcomeController@index');
 Route::get('/', array('as'=>'home','uses'=>'WelcomeController@index'));
+Route::get('/search', array('as'=>'search','uses'=>'Search@search'));
+Route::get('/start', array('as'=>'start','uses'=>'Start@index'));
 Route::get('/apply', array('as'=>'apply','uses'=>'Authenticate@authen'));
+Route::get('/profile', function () {
+    return redirect()->away('localhost/cbs/cbs/public');
+});
 //Route::get('/sales', array('as'=>'mod','uses'=>'WelcomeController@index'));
 Route::get('/about', array('as'=>'about','uses'=>'PageController@about'));
 Route::get('/jobs', array('as'=>'job','uses'=>'PageController@jobs'));
 Route::get('/services', array('as'=>'service','uses'=>'PageController@service'));
-Route::get('/job', 'Jobs@index');
+//Route::get('/job', 'Jobs@index');
 
 
 Route::get('/services/workforce_outsourcing', array('as'=>'outsrc','uses'=>'PageController@outsourcing'));

@@ -83,4 +83,9 @@ class PageController extends Controller {
 		return view('pages.courses.customerService');
 	}
 
+	  public function pro()
+	{
+		return view('pages.services.outsourcing');
+	}
+
 }
