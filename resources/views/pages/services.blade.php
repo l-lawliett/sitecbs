@@ -8,7 +8,8 @@ Company:Choices Business Solutions
 
 @section('content')
 	 <body class="jobs">
-   @if ($startNum == 2)
+
+      @if ($startNum == 2)
         @include('pages.headers.startHeaders.jobsHeader')
  @else
          @include('pages.headers.jobsHeader')

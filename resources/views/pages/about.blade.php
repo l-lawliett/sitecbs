@@ -8,7 +8,13 @@ Company:Choices Business Solutions
 
 @section('content')
 <body class="services">
-    @include('pages.headers.aboutHeader')
+    @if ($startNum == 2)
+        @include('pages.headers.startHeaders.aboutHeader')
+ @else
+         @include('pages.headers.aboutHeader')
+
+@endif
+    
                         <div id="foyer">
                         </div>
                         <div class="container">

@@ -8,13 +8,12 @@ Company:Choices Business Solutions
 
 @section('content')
 <body class="services">
-@if ($startNum == 2)
+      @if ($startNum == 2)
         @include('pages.headers.startHeaders.servHeader')
  @else
          @include('pages.headers.servHeader')
 
 @endif
-     
         <div id="foyer">
         </div>
         <div class="container">
