@@ -8,7 +8,7 @@ Company:Choices Business Solutions
 
 @section('content')
 <body class="services">
-    @if ($startNum == 2)
+@if ($startNum == 2)
         @include('pages.headers.startHeaders.aboutHeader')
  @else
          @include('pages.headers.aboutHeader')
