@@ -16,7 +16,7 @@ Company:Choices Business Solutions
 @endif
     
                         <div id="foyer">
-                        </div>
+                        </div >
                         <div class="container">
                             <div id="main" class="clearfix">
                                 <div class="col-xs-12 col-md-9 pull-right">
