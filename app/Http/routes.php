@@ -46,7 +46,7 @@ Route::get('/services/customerService', array('as'=>'cus','uses'=>'PageControlle
 Route::get('/start/search', array('as'=>'search','uses'=>'Search@search'));
 Route::get('/start/apply', array('as'=>'apply','uses'=>'Authenticate@authen'));
 
-Route::get('/start/about', array('as'=>'about','uses'=>'PageController2@about'));
+Route::get('/start/about', array('as'=>'about2','uses'=>'PageController2@about'));
 Route::get('/start/jobs', array('as'=>'job','uses'=>'PageController2@jobs'));
 Route::get('/start/services', array('as'=>'service','uses'=>'PageController2@service'));
 //Route::get('/job', 'Jobs@index');
