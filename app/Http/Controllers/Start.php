@@ -43,7 +43,7 @@ class Start extends Controller {
 		// $jobs = jobsDb::where('active', '=', 1)->orderBy('updated_at', 'DESC')->take(10)->skip()->get(); 
 		$name = 'hello';
 
-		return view('pages.starthome', compact('jobs', 'jobcount'))->render();
+		return view('pages.startHome', compact('jobs', 'jobcount'))->render();
 	}
 
 
