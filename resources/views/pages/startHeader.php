@@ -8,7 +8,7 @@
         </div>
     </div>
     <div class="col-xs-12 col-sm-3 col-md-3">
-    <h1 class="logo-title"><a href="http://test.choicebusinesssolutions.net/start/>Choice Business Solutions Limited</a></h1>
+    <h1 class="logo-title"><a href="http://test.choicebusinesssolutions.net/start/">Choice Business Solutions Limited</a></h1>
     </div>
     <nav id="mainnav" class="col-xs-12 col-sm-9 col-md-6" role="navigation">
     <div class="container-fluid">
