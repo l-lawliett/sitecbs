@@ -8,15 +8,15 @@
         </div>
     </div>
     <div class="col-xs-12 col-sm-3 col-md-3">
-    <h1 class="logo-title"><a href="{{ URL::route('home') }}">Choice Business Solutions Limited</a></h1>
+    <h1 class="logo-title"><a href="http://test.choicebusinesssolutions.net/start/">Choice Business Solutions Limited</a></h1>
     </div>
     <nav id="mainnav" class="col-xs-12 col-sm-9 col-md-6" role="navigation">
     <div class="container-fluid">
         <ul class="nav navbar-nav">
-        <li class=" active "><a class=" active " href="{{ URL::route('home') }}">Home</a></li>
-        <li class=""><a class="" href="{{ URL::route('service') }}">Services</a></li> 
-        <li class=""><a class="" href="{{ URL::route('about') }}">About Us</a></li>
-        <li class=""><a class="" href="{{ URL::route('job') }}">Find Jobs</a></li>
+        <li class=" active "><a class=" active " href="http://test.choicebusinesssolutions.net/start/">Home</a></li>
+        <li class=""><a class="" href="http://test.choicebusinesssolutions.net/start/services">Services</a></li> 
+        <li class=""><a class="" href="http://test.choicebusinesssolutions.net/start/about">About Us</a></li>
+        <li class=""><a class="" href="http://test.choicebusinesssolutions.net/start/jobs">Find Jobs</a></li>
         <li><a href="#footer">Contact Us</a></li>
 
         
