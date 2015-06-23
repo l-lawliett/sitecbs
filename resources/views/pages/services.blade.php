@@ -8,8 +8,12 @@ Company:Choices Business Solutions
 
 @section('content')
 	 <body class="jobs">
+   @if ($startNum == 2)
+        @include('pages.headers.startHeaders.jobsHeader')
+ @else
+         @include('pages.headers.jobsHeader')
 
-    @include('pages.headers.jobsHeader')
+@endif
           <div id="foyer">
                     <div class="jobs-search-form col-xs-12 col-md-8 col-md-offset-2">
                         
