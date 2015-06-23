@@ -28,7 +28,7 @@ class authenticate extends Controller {
 		    // if the user uploaded their resume and stuff
 		}else{
 
-			return redirect()->to('http://localhost/cbsnew/public')->with('message', 'You must sign in to apply for a job post');
+			return redirect()->to('http://login.choicebusinesssolutions.net/user/login');
 		}
 
     }
