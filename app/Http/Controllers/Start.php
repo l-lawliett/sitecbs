@@ -35,10 +35,10 @@ class Start extends Controller {
 		//
 		$bool = 'APPROVED';
 		$jobcount = jobsDb::where('status', '=', $bool)->count();
-		$users = jobsDb::paginate(10);
+		//$users = jobsDb::paginate(10);
 		
 		
-		$jobs = jobsDb::where('status', '=', $bool)->orderBy('updated_at', 'DESC')->paginate(10); 
+		$jobs = jobsDb::where('status', '=', $bool)->orderBy('updated_at', 'DESC')->paginate(8); 
 		// $jobs = jobsDb::All();
 		// $jobs = jobsDb::where('active', '=', 1)->orderBy('updated_at', 'DESC')->take(10)->skip()->get(); 
 		$name = 'hello';
