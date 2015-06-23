@@ -15,7 +15,7 @@
         <ul class="nav navbar-nav">
         <li class=" active "><a class=" active " href="http://test.choicebusinesssolutions.net/start/">Home</a></li>
         <li class=""><a class="" href="http://test.choicebusinesssolutions.net/start/services">Services</a></li> 
-        <li class=""><a class="" href="http://test.choicebusinesssolutions.net/start/services">About Us</a></li>
+        <li class=""><a class="" href="http://test.choicebusinesssolutions.net/start/about">About Us</a></li>
         <li class=""><a class="" href="http://test.choicebusinesssolutions.net/start/jobs">Find Jobs</a></li>
         <li><a href="#footer">Contact Us</a></li>
 
