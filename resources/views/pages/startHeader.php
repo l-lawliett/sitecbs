@@ -15,7 +15,7 @@
         <ul class="nav navbar-nav">
         <li class=" active "><a class=" active " href="{{ HTML::linkRoute('home') }}">Home</a></li>
         <li class=""><a class="" href="{{ URL::route('service') }}">Services</a></li> 
-        <li class=""><a class="" href="{{ URL::route('about') }}">About Us</a></li>
+        <li class=""><a class="" href="{{ HTML::linkRoute('home') }}">About Us</a></li>
         <li class=""><a class="" href="{{ URL::route('job') }}">Find Jobs</a></li>
         <li><a href="#footer">Contact Us</a></li>
 
