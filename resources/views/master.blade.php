@@ -7,7 +7,7 @@
         <meta name="author" content="Redcode">
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
         <link href="{{ asset("assets/css/bootstrap.min.css") }}" rel="stylesheet">
-        <link href="{{ asset("assets/css/style1f6b.css?v=0.5") }}" rel="stylesheet">
+        <link href="{{ asset("assets/css/style1f6b.css") }}" rel="stylesheet">
         <link href="{{ asset("assets/css/side_nav1f6b.css?v=0.5") }}" rel="stylesheet">
         <link href="{{ asset("assets/css/tabs.css") }}" rel="stylesheet">
         <link href="{{ asset("assets/css/tabstyles.css") }}" rel="stylesheet">
