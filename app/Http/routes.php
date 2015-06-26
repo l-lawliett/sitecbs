@@ -42,7 +42,7 @@ Route::get('/services/fastTrackProjectManagement', array('as'=>'ftpm','uses'=>'P
 Route::get('/services/customerService', array('as'=>'cus','uses'=>'PageController@customerService'));
 
 //start
-
+ 
 // Route::get('/start/search', array('as'=>'search','uses'=>'Search@search'));
 // Route::get('/start/apply', array('as'=>'apply','uses'=>'Authenticate@authen'));
 
