@@ -10,17 +10,22 @@ class PageController extends Controller {
 	//
 	public function about()
 	{
-		return view('pages.about');
+
+		$startNum = 1;
+		return view('pages.about', compact('startNum'));
 	}
 
 		public function service()
 	{
-		return view('pages.service');
+
+		$startNum = 1;
+		return view('pages.service', compact('startNum'));
 	}
 
 		public function jobs()
 	{
-		return view('pages.jobs');
+		$startNum = 1;
+		return view('pages.jobs', compact('startNum'));
 	}
 
 
@@ -28,64 +33,78 @@ class PageController extends Controller {
 //Sub tabs which listed under Services
     public function outSourcing()
 	{
-		return view('pages.services.outsourcing');
+		$startNum = 1;
+		return view('pages.services.outsourcing', compact('startNum'));
 	}
 
 	  public function payRoll()
 	{
-		return view('pages.services.payroll');
+		$startNum = 1;
+		return view('pages.services.payroll', compact('startNum'));
 	}
 
 	  public function hrServices()
-	{
-		return view('pages.services.hrservices');
+	{	
+		$startNum = 1;
+		return view('pages.services.hrservices', compact('$startNum'));
 	}
 
 	  public function training()
 	{
-		return view('pages.services.training');
+		$startNum = 1;
+		return view('pages.services.training', compact('startNum'));
 	}
 
 	  public function recruitment()
 	{
-		return view('pages.services.recruitment');
+		$startNum = 1;
+		return view('pages.services.recruitment', compact('startNum'));
 	}
 
 	  public function consultation()
 	{
-		return view('pages.services.consultation');
+
+		$startNum = 1;
+		return view('pages.services.consultation', compact('startNum'));
 	}
 
 
 //Sub tabs which listed under Training
     public function projectManagement()
 	{
-		return view('pages.courses.projectManagement');
+		$startNum = 1;
+		return view('pages.courses.projectManagement', compact('startNum'));
 	}
 
 	  public function onSiteProManagement()
-	{
-		return view('pages.courses.onSiteProManagement');
+	  {
+	
+		$startNum = 1;
+	return view('pages.courses.onSiteProManagement', compact('startNum'));
 	}
 
 	  public function operationalProjectManagement()
 	{
-		return view('pages.courses.operationalProjectManagement');
+		$startNum = 1;
+		return view('pages.courses.operationalProjectManagement', compact('startNum'));
 	}
 
 	  public function fastTrackProjectManagement()
 	{
-		return view('pages.courses.fastTrackProjectManagement');
+			$startNum = 1;
+		return view('pages.courses.fastTrackProjectManagement', compact('startNum'));
 	}
 
 	  public function customerService()
 	{
-		return view('pages.courses.customerService');
+		$startNum = 1;
+		return view('pages.courses.customerService', compact('startNum'));
 	}
 
 	  public function pro()
 	{
-		return view('pages.services.outsourcing');
+		$startNum = 1;
+		return view('pages.services.outsourcing', compact('startNum'));
 	}
 
 }
