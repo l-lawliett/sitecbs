@@ -41,12 +41,12 @@ header
     height: 180px;
 }
 
-.jobs #foyer
+/*.jobs #foyer
 {
     background-image: url(../img/girl-at-desk.jpg);
     height: 310px; 
     background-position: 0 50%;
-}
+}*/
 
 .job-view #foyer
 {
