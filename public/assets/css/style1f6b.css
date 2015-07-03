@@ -22,18 +22,10 @@ header
     background-color: #fff;
     width: 100%;
     height: 78px;
-    /*position: fixed;*/
+    /*position: absolute;*/
     overflow: hidden;
 }
 
-#heads{
-  width: 100%;
-    height: 78px;
-    position:fixed
-top:0;
-left:0;
-
-}
 
 .front #foyer,
 #foyer
@@ -53,7 +45,7 @@ left:0;
 .jobs #foyer
 {
     background-image: url(../img/girl-at-desk.jpg);
-    height: 310px; 
+    height: 180px; 
     background-position: 0 50%;
 }
 
@@ -235,6 +227,8 @@ ul#listings
     list-style-image: none;
     margin: 0;
     padding: 0;
+    position: relative;
+    top:105px;
 }
 
 ul#listings li
@@ -382,6 +376,7 @@ span.timestamp
 .jobs-search-form
 {
     margin-top: 40px;
+    top:140px;
 }
 
 

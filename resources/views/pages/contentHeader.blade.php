@@ -1,4 +1,3 @@
-<div id="heads">
  <header class="clearfix">
                 <div class="container">
     <div class="hidden-sm hidden-xs col-xs-12 col-md-3 pull-right">
@@ -26,5 +25,3 @@
     </nav>
 </div>
 </header>
-
-</div>

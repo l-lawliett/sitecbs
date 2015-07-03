@@ -36,6 +36,8 @@ class Search extends Controller {
     $q = Input::get('title');
    $r = Input::get('location');
 
+   $startNum = 2;
+
 
    if (isset($q) && empty($r)) {
    					$query = jobsDb::where('title', '=', "{$q}")
@@ -43,7 +45,7 @@ class Search extends Controller {
 
              $results = $query;
 
-    		 return view('pages.services', compact('results', 'jobcount'))->render();
+    		 return view('pages.services', compact('results', 'jobcount', 'startNum'))->render();
    			}
    		if (isset($r) && empty($q)) {
    					$query = jobsDb::where('location', '=', "{$r}")
@@ -51,7 +53,7 @@ class Search extends Controller {
 
              $results = $query;
 
-    		 return view('pages.services', compact('results', 'jobcount'))->render();
+    		 return view('pages.services', compact('results', 'jobcount', 'startNum'))->render();
    			}
    			if(isset($q) && isset($r)){
    				$query = jobsDb::where('title', '=', "{$q}")
@@ -60,7 +62,7 @@ class Search extends Controller {
 
              $results = $query;
 
-    		 return view('pages.services', compact('results', 'jobcount'))->render();
+    		 return view('pages.services', compact('results', 'jobcount', 'startNum'))->render();
               
    			}
    			
@@ -68,7 +70,7 @@ class Search extends Controller {
     // $query = jobsDb::where('title', '=', "{$q}")
     //          ->where('location', '=', "{$r}")->orWhere('title', '=', "{$q}")
     //          ->orWhere('location', '=', "{$r}")
-    //          ->orderBy('updated_at', 'DESC')->paginate(10);
+    //          ->orderBy('updated_at', 'DESC')->paginate(10);  
 
     // $jobcount = jobsDb::where('title', 'LIKE', "%{$q}%")
     //          ->orWhere('location', 'LIKE', "%{$r}%")->count();
