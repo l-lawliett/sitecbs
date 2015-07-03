@@ -1,0 +1,256 @@
+#login-wrapper{
+	margin-top: 50px;
+	background-color:#fff;
+	width: 360px;
+    padding-top: 20px;
+	padding-bottom:20px;
+	border:solid 1px #c6c6c6;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.login-help
+{
+    width: 360px;
+    font-size: 12px;
+}
+
+h1.logo-title
+{
+    background: transparent url(../images/logo-large.png) no-repeat scroll top center;
+    text-indent: -9999px;
+    height: 63px;
+    width: 200px;
+    line-height: 63px;
+    margin-top: 0;
+}
+
+.page-header
+{
+    border-bottom: none;
+}
+
+body {
+    background: #eee url(../img/retina_wood.png) scroll 0 0;
+    background: #eee url(../images/bg-login.jpg) repreat-x scroll 0 0;
+    background: #eee url(../img/greyzz.png) scroll 0 0;
+    background: #eee url(../img/cream_pixels/cream_pixels.png) scroll 0 0;
+}
+
+body.production.dashboard .tab-pane .section
+{
+    background: white url("../img/CBS%20FLAME%20VERY%20IMPORTANT%20FLAME%20MUST%20HAVE.png") no-repeat 50% 50%;
+}
+
+body.admin {
+    padding-top: 30px;
+}
+
+body.account {
+    /*
+    background: #fff;
+    */
+}
+
+body.account h1.logo-title {
+    background-position: top left;
+    width: 100%;
+}
+
+.signup-form {
+	background-color:#fff;
+	-webkit-border-radius: 15x;
+	-moz-border-radius: 15px;
+	border:solid 1px #ddd;
+    border-top: none;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+	padding:10px 40px;
+}
+
+.signup-section
+{
+    margin:0;
+}
+
+.signup-section .register,
+.signup-section .intro
+{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin .form-signin-heading, .form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+	font-weight: normal;
+}
+
+.form-signin .form-control {
+	font-size: 16px;
+	padding: 10px;
+    /*
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    */
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type="text"] {
+	margin-bottom: -1px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.dp-x-sm{
+	margin-top:5px;
+}
+
+.dp-sm{
+	margin-top:10px;
+}
+
+.dp-md{
+	margin-top:20px;
+}
+
+.dp-lg{
+	margin-top:30px;
+}
+
+.dp-x-lg{
+	margin-top:40px;
+}
+
+.tab-sm{
+	margin-left:10px;
+}
+
+.tab-md{
+	margin-right:20px;
+}
+
+.tab-lg{
+	margin-left:30px;
+}
+
+.tab-x-lg{
+	margin-left:40px;
+}
+
+.item-edit{
+	font-size:13px;
+	margin-left:10px;
+}
+
+.section
+{
+	background-color:#fff;
+	padding: 20px 20px;
+	position:relative;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+    border: solid 1px #e7e7e7;
+}
+
+.title
+{
+	text-transform:uppercase;
+    margin-bottom: 1.5em;
+}
+
+.btn-add {
+	/*font-weight:bold;*/
+    margin: 5px 0;
+    text-align: left;
+}
+
+.message ul{
+	margin:0px auto;
+	padding:0px auto;
+}
+
+
+h1 small
+{
+    border-left: solid 2px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+/** BOOTSTRAP OVERRIDES **/
+.popover-content
+{
+    font-size: 14px;
+}
+
+.dashboard .tab-pane
+{
+    margin-bottom: 30px;
+}
+
+.tab-pane #workexperience h4
+{
+    font-size: 15px;
+}
+
+.tab-pane #workexperience h3,
+.tab-pane #workexperience h4,
+.tab-pane #education h4,
+.tab-pane #certification h4,
+.tab-pane #membership h3,
+.tab-pane #reference h3,
+.tab-pane #profile h3
+{
+    margin-top: 0;
+}
+
+.tab-pane #profile h3
+{
+    color: #999;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#candidate_list ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.candidate-card
+{
+    border:solid 1px #eee;
+    border-radius: 3px;
+    padding: 10px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.candidate-card h4
+{
+    margin-top: 0;
+}
