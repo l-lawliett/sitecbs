@@ -36,7 +36,7 @@ class Search extends Controller {
     $q = Input::get('title');
    $r = Input::get('location');
 
-   $startNum = 2;
+   $startNum = 1;
 
 
    if (isset($q) && empty($r)) {
