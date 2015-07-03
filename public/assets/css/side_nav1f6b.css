@@ -1,0 +1,134 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+/* Starter CSS for Flyout Menu */
+#contextmenu,
+#contextmenu ul,
+#contextmenu ul li,
+#contextmenu ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#contextmenu ul {
+  position: relative;
+  z-index: 597;
+  float: left;
+}
+#contextmenu ul li {
+  float: left;
+  min-height: 1px;
+  line-height: 1em;
+  vertical-align: middle;
+}
+#contextmenu ul li.hover,
+#contextmenu ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+#contextmenu ul ul {
+  margin-top: 1px;
+  visibility: hidden;
+  position: absolute;
+  top: 1px;
+  left: 80%;
+  z-index: 598;
+  width: 100%;
+}
+#contextmenu ul ul li {
+  float: none;
+}
+#contextmenu ul ul ul {
+  top: 1px;
+  left: 99%;
+}
+#contextmenu ul li:hover > ul {
+  visibility: visible;
+}
+#contextmenu ul li {
+  float: none;
+}
+#contextmenu ul ul li {
+  font-weight: normal;
+}
+/* Custom CSS Styles */
+#contextmenu {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  width: 200px;
+}
+#contextmenu ul a,
+#contextmenu ul a:link,
+#contextmenu ul a:visited {
+  display: block;
+  color: #070808;
+  text-decoration: none;
+  font-weight: 300;
+}
+#contextmenu > ul {
+  float: none;
+}
+#contextmenu ul {
+  background: #fff;
+}
+#contextmenu > ul > li {
+  border-left: 3px solid #d7d8da;
+}
+#contextmenu > ul > li > a {
+  padding: 10px 20px;
+}
+#contextmenu > ul > li:hover,
+#contextmenu > ul > li.active {
+  border-left: 3px solid #522506;
+}
+#contextmenu > ul > li:hover a,
+#contextmenu ul li:hover > a {
+  color: #522506;
+}
+#contextmenu > ul > li:hover,
+#contextmenu > ul > li.active {
+  background: #f6f6f6;
+}
+/* Sub Menu */
+#contextmenu ul ul a:link,
+#contextmenu ul ul a:visited {
+  font-weight: 400;
+  font-size: 14px;
+}
+#contextmenu ul ul {
+  width: 280px;
+  background: none;
+  border-left: 20px solid transparent;
+}
+#contextmenu ul ul a {
+  padding: 8px 0;
+  border-bottom: 1px solid #eeeeee;
+  color: #848889;
+}
+#contextmenu ul ul li {
+  padding: 0 20px;
+  background: #fff;
+}
+#contextmenu ul ul li:last-child {
+  border-bottom: 3px solid #d7d8da;
+  padding-bottom: 10px;
+}
+#contextmenu ul ul li:first-child {
+  padding-top: 10px;
+}
+#contextmenu ul ul li:last-child > a {
+  border-bottom: none;
+}
+#contextmenu ul ul li:first-child:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: -20px;
+  top: 13px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #fff;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+}

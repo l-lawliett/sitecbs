@@ -1,0 +1,98 @@
+/* Default tab style */
+
+
+.letabs {
+	position: relative;
+	overflow: hidden;
+	font-weight: 300;
+	font-size: 1.25em;
+}
+
+#foyer .letabs
+{
+    margin-top: 80px;
+}
+
+/* Nav */
+.letabs nav {
+	text-align: center;
+}
+
+.letabs nav ul {
+	position: relative;
+	margin: 0 auto;
+    margin-left: 80px;
+	padding: 0;
+	max-width: 1200px;
+	list-style: none;
+}
+
+.letabs nav ul li {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+    float: left;
+}
+
+.letabs nav a {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 2.5;
+    width: 250px;
+}
+
+.letabs nav a span {
+	vertical-align: middle;
+	font-size: 0.75em;
+}
+
+.letabs nav li.tab-current a {
+	color: #74777b;
+}
+
+.letabs nav a:focus {
+	outline: none;
+}
+
+.letabs .content-wrap {
+}
+
+.letabs .content-wrap section {
+    display: none;
+    padding: 10px 20px;
+    min-height: 280px;
+}
+
+.letabs .content-wrap section.content-current {
+    display: block;
+}
+
+/* Fallback */
+.no-js .content-wrap section.content-current {
+	display: block;
+	padding-bottom: 2em;
+	border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+
+.no-flexbox nav ul {
+	display: block;
+}
+
+.no-flexbox nav ul li {
+	min-width: 15%;
+	display: inline-block;
+}
+
+@media screen and (max-width: 58em) {
+	.tabs nav a.icon span {
+		display: none;
+	}
+	.letabs nav a:before {
+		margin-right: 0;
+	}
+}
