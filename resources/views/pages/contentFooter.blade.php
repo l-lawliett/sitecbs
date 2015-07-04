@@ -1,7 +1,7 @@
    <footer id="footer" class="clearfix">
             <div class="col-md-12">
                 <div class="col-xs-12 col-md-3">
-                    <h3>About CBS</h3>
+                    <h3><a href="{{ URL::route('about') }}">About CBS</a></h3>
                     Choice Business Solutions (CBS) is a Caribbean-based company specializing
                     in providing Workforce Management Services. Delivering Payroll and Benefits
                     Administration, HR Administration, Workforce Consulting,
