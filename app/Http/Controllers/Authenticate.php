@@ -28,7 +28,7 @@ class authenticate extends Controller {
 		    // if the user uploaded their resume and stuff
 		}else{
 
-			return redirect()->to('http://login.choicebusinesssolutions.net/user/login');
+			return redirect()->to('http://test3.choicebusinesssolutions.net);
 		}
 
     }
