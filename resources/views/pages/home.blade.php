@@ -97,15 +97,15 @@ Company:Choices Business Solutions
                             <p>We let you focus on your core business.</p>
                         </div>
                         <div class="col-xs-12 col-md-3">
-                            <h4>Workforce Management</h3>
+                            <h4><a href="{{ URL::route('outsrc') }}">Workforce Management</a></h3>
                             <p>We recruit and train staff to meet the needs of your organization.</p>
                         </div>
                         <div class="col-xs-12 col-md-3">
-                            <h4>HR Services</h3>
+                            <h4><a href="{{ URL::route('hrsrv') }}">HR Services</a></h3>
                             <p>Focus on your core business and let us administer employee benefits for your staff.</p>
                         </div>
                         <div class="col-xs-12 col-md-3">
-                            <h4>Payroll</h3>
+                            <h4><a href="{{ URL::route('pay') }}">Payroll</a></h3>
                             <p>Tailored payroll solutions enhance your employee benefit offerings while reducing time and cost.</p>
                         </div>
                     </div>
