@@ -7,9 +7,9 @@ Company:Choices Business Solutions
 @extends('master')
 
 @section('content')
-	 <body class="services">
-		 @include('pages.contentHeader')
-		 	<div id="foyer">
+     <body class="services">
+         @include('pages.contentHeader')
+            <div id="foyer">
         </div>
         <div class="container">
             <div class="clearfix" id="main">
@@ -21,6 +21,25 @@ Company:Choices Business Solutions
                         <p>Globalization has increased competition in the market place. Organizations like yours should be concentrating on making products or providing services at the lowest cost without compromising quality. To this end a great deal of your effort and time needs to be spent on driving core business in order to remain on par with or out stride the competition. Workforce outsourcing is about providing competent and qualified workforce at costs much lower than the traditional means of human resource management. It allows organizations to reduce their administrative burden, increase efficiency, save time and money.</p>
 
                         <p>We manage your workforce by utilizing a number of management tools and techniques. Persons are contracted to Choice Business Solutions, and not to your organization, thereby reducing the time taken on your side to manage the workforce. Our proven and tested system provides world class HR administration and a workforce with the right attitude, background and competence.</p>
+
+
+                        <h2>What is Workforce Outsourcing?</h2>
+                        <p>
+
+                            The concept of Workforce outsourcing is rather unfamiliar to many business, but it can be very vital to your business. Workforce outsourcing has to do with selecting a service provider with whom you can share your employee management tasks, such as employee benefits, payroll, recruiting, performance management, and training and development. Simply put you and your partnering company become joint employers (your employees work for both your company and workforce service provider); you have control over your day to day: activities, management, processes, procedures, business and operational decisions; and your provider handles the HR management and benefits administration. Choice Business Solutions have been workforce service providers since 2009, with our proven and tested system you get stress
+                             free HR administration we take care of your workforce so that you can focus on your core business.
+
+                        </p>  
+
+
+                        <h2>Why choose CBS Workforce Outsourcing </h2>  
+                        <p>
+                                We offer full HR services, thus handling the bulk of your HR responsibilities
+                             as your dedicated workforce service partner.
+
+
+                        </p>    
+
 
                         <h2>Benefits of Workforce Outsourcing</h2>
                         <ul>
@@ -61,11 +80,11 @@ Company:Choices Business Solutions
 
 
 
-		    @include('pages.contentSidebar')
+            @include('pages.contentSidebar')
                 </div> <!-- end: main -->
                 </div> <!-- end: container -->
 
-		 @include('pages.contentFooter')
+         @include('pages.contentFooter')
 
 
 @stop
