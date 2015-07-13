@@ -22,6 +22,8 @@
                     <h3>Stay Connected</h3>
                     <a href="https://www.facebook.com/ChoiceBusinessSolutions" title="Choice Business Solutions on Facebook"><i class="fa fa-facebook"></i></a>
                     <a href="https://twitter.com/ChoiceBusiness"><i class="fa fa-twitter"></i></a>
+                    <a href="https://instagram.com/choicebusinesssolutions/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/choice-business-solutions-ltd"><i class="fa fa-linkedin"></i></a>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-md-3">
