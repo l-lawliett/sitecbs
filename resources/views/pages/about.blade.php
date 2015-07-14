@@ -84,15 +84,7 @@ Company:Choices Business Solutions
                                     <p>CBS has partnered with national and international companies to deliver exceptional service. Some of our clients include Whirlpool, Jamaica Money Market Brokers Limited, Mayberry Investments, and Victoria Mutual</p>
 
                                 </div>
-                                <div id="contextmenu" class="context-menu col-xs-12 col-md-3">
-                                    <h3>Our Services</h3>
-                <ul>
-                    <li class=""><a class="" href="services.html"><span>Overview</span></a></li>    <li class=""><a class="" href="services/workforce-outsourcing.html"><span>Workforce Outsourcing</span></a></li>    <li class=""><a class="" href="services/payroll.html"><span>Payroll</span></a></li>    <li class=""><a class="" href="services/hr.html"><span>HR Services</span></a></li>    <li class="has-sub "><a class="" href="services/training.html"><span>Training</span></a>
-                        <ul>
-                            <li class=""><a class="" href="courses/project-management.html"><span>Project Management Overview</span></a></li>            <li class=""><a class="" href="courses/in-house-project-management-training.html"><span>On-site Project Management</span></a></li>            <li class=""><a class="" href="courses/operational-project-management.html"><span>Operational Project Management</span></a></li>            <li class=""><a class="" href="courses/fast-track-project-management.html"><span>Fast Track Project Management</span></a></li>            <li class=""><a class="" href="courses/customer-service.html"><span>Customer Service</span></a></li>        </ul>
-                    </li>
-                    <li class=""><a class="" href="services/recruitment.html"><span>Recruitment</span></a></li>    <li class=""><a class="" href="services/consult.html"><span>Consultancy</span></a></li></ul>
-                                </div>
+                                @include('pages.contentSidebar')
                             </div> <!-- end: main -->
 
                         </div> <!-- end: container -->
