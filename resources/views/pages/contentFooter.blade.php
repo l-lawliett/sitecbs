@@ -42,6 +42,10 @@
                         <br>
                         <i class="glyphicon glyphicon-link"></i>
                         www.choicebusinesssolutions.net
+                        <br>
+                         <i class="glyphicon glyphicon-eye-open"></i>
+                        We are open Monday through Friday, from 8:30 AM to 5:30 PM.
+                        
                     </address>
                 </div>
             </div>

@@ -17,6 +17,12 @@ Route::get('/search', array('as'=>'search','uses'=>'Search@search'));
 Route::get('/start', array('as'=>'start','uses'=>'Start@index'));
 Route::get('/apply', array('as'=>'apply','uses'=>'Authenticate@authen'));
 
+Route::get('contact', 
+  ['as' => 'contact', 'uses' => 'ContactController@create']);
+
+Route::post('contact', 
+  ['as' => 'contact_store', 'uses' => 'ContactController@store']);
+
 //Route::get('/', array('as'=>'fakehome','uses'=>'WelcomeController@newIndex'));
 
 // Route::get('/{id}', function ($id) {
