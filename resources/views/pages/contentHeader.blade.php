@@ -17,7 +17,7 @@
         <li class=""><a class="" href="{{ URL::route('service') }}">Services</a></li> 
         <li class=""><a class="" href="{{ URL::route('about') }}">About Us</a></li>
         <li class=""><a class="" href="{{ URL::route('job') }}">Find Jobs</a></li>
-        <li><a href="{{ URL::route('job') }}">Contact Us</a></li>
+        <li><a href="{{ URL::route('contact') }}">Contact Us</a></li>
 
         
         </ul>
