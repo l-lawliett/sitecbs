@@ -12,7 +12,7 @@ Company:Choices Business Solutions
       @if ($startNum == 2)
         @include('pages.headers.startHeaders.servHeader')
  @else
-         @include('pages.headers.servHeader')
+         @include('pages.headers.jobsHeader')
 
 @endif
           <div id="foyer">

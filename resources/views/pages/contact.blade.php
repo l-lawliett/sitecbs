@@ -10,7 +10,7 @@ Company:Choices Business Solutions
 <body class="services">
 
 
- @include('pages.contentHeader')
+ @include('pages.headers.contactHeader')
      <div id="foyer">
         </div>
         <div class="container">
