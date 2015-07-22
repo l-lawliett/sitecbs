@@ -629,9 +629,14 @@ input#recruitment
     color: #ffcc00;
 }
 
+.con_title{
+
+    color: #ffcc00;
+}
+
 .myButton
 {
-    background: #fef9e0;
+    background: #fef9e0 ;
     color: #f19524;
     font-family: Verdana;
     font-weight: bold;
@@ -645,6 +650,7 @@ input#recruitment
   -moz-border-radius:4px;
   -webkit-border-radius:4px;     
 }
+
 
 
 
