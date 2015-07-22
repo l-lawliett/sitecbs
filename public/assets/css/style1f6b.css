@@ -624,5 +624,27 @@ input#recruitment
     margin-bottom: 15px;
 }
 
+.con_title{
+
+    color: #ffcc00;
+}
+
+.myButton
+{
+    background: #fef9e0;
+    color: #f19524;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 8pt;
+    width: 230px;
+    height: 35px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    margin-bottom:5px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;     
+}
+
 
 
