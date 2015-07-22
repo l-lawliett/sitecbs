@@ -35,7 +35,7 @@
                         6 Sandhurst Crescent, Kingston 8, Jamaica
                         <br>
                         <i class="glyphicon glyphicon-phone"></i>
-                        (876) 978 2213 or (876) 927 2240
+                        (876) 978-2213 or (876) 927-4470
                         <br>
                         <i class="glyphicon glyphicon-envelope"></i>
                         choice@choicebusinesssolutions.net
