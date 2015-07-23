@@ -629,19 +629,14 @@ input#recruitment
     color: #ffcc00;
 }
 
-.con_title{
-
-    color: #ffcc00;
-}
-
 .myButton
 {
-    background: #fef9e0 ;
+    background: #fef9e0;
     color: #f19524;
     font-family: Verdana;
     font-weight: bold;
     font-size: 8pt;
-    width: 230px;
+    width: 255px;
     height: 35px;
     border: none;
     position: relative;
@@ -651,6 +646,11 @@ input#recruitment
   -webkit-border-radius:4px;     
 }
 
+.myButton:hover{
+
+    background-image:none;
+background-color:#C0C0C0 ;
+}
 
 
 

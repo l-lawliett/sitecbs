@@ -38,8 +38,10 @@ Company:Choices Business Solutions
                             <li>HR Mergers and Integration</li>
                         </ul>
 
-<button class='myButton' onclick="location.href='{{ URL::route('service') }}'">
-    <img src="{{ asset("assets/css/images/arrow-7.png") }}"> Learn more about our projects</button>
+                        <hr>
+
+<a href=""><button class='myButton' onclick="location.href='{{ URL::route('service') }}'">
+    Click to Learn more about our projects</button></a>
 
                          <div class="row-divider col-xs-12"></div>
 
