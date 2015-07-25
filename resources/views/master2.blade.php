@@ -47,10 +47,7 @@
 <script type='text/javascript' src='assets/wp-content/themes/sarraty/js/modernizr.min3d81.js?ver=4.1.6'></script>
 <script type='text/javascript' src='assets/wp-content/themes/sarraty/switcher/colorpicker/js/color-picker.min3d81.js?ver=4.1.6'></script>
 <script type='text/javascript' src='assets/wp-content/themes/sarraty/switcher/switcher3d81.js?ver=4.1.6'></script>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.choicebusinesssolutions.net/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.choicebusinesssolutions.net/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 4.1.6" />
-<link rel='shortlink' href='http://www.choicebusinesssolutions.net/?p=1866' />
+
 <script type="text/javascript">
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-48251805-1']);
