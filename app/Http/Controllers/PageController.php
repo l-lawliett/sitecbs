@@ -107,4 +107,10 @@ class PageController extends Controller {
 		return view('pages.services.outsourcing', compact('startNum'));
 	}
 
+	  public function projects()
+	{
+		$startNum = 1;
+		return view('pages.services.project');
+	}
+
 }

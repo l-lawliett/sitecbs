@@ -57,6 +57,8 @@ Route::get('/services/operationalProjectManagement', array('as'=>'opm','uses'=>'
 Route::get('/services/fastTrackProjectManagement', array('as'=>'ftpm','uses'=>'PageController@fastTrackProjectManagement'));
 Route::get('/services/customerService', array('as'=>'cus','uses'=>'PageController@customerService'));
 
+Route::get('/projects', array('as'=>'proj','uses'=>'PageController@projects'));
+
 
 //start
 

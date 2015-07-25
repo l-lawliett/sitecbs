@@ -9,7 +9,7 @@ Company:Choices Business Solutions
 @section('content')
 
 
-		You received a message from a Guest:
+		You received a message from Guest:
 
 		<p>
 		Name: {{ $name }}

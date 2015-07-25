@@ -9,8 +9,8 @@ Company:Choices Business Solutions
 @section('content')
 <body class="consult">
 
-         @include('pages.contentHeader')
-          <div class="" id="foyer">
+		 @include('pages.contentHeader')
+		  <div class="" id="foyer">
         </div>
         <div class="container">
             <div class="clearfix" id="main">
@@ -40,8 +40,8 @@ Company:Choices Business Solutions
 
                         <hr>
 
-<a href=""><button class='myButton' onclick="location.href='{{ URL::route('service') }}'">
-    Click to Learn more about our projects</button></a>
+<button class='myButton' onclick="location.href='{{ URL::route('proj') }}'">
+    Click to Learn more about our projects</button>
 
                          <div class="row-divider col-xs-12"></div>
 
@@ -90,7 +90,7 @@ Company:Choices Business Solutions
                 </div> <!-- end: main -->
                 </div> <!-- end: container -->
 
-         @include('pages.contentFooter')
+		 @include('pages.contentFooter')
                 
 
 
