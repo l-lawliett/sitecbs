@@ -1,4 +1,3 @@
-<!Doctype html>
 <html>
 	<head>
 		<title>Managing Your People and Your Business Processes - Choice Business Solutions</title>
