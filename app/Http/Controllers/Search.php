@@ -41,7 +41,7 @@ class Search extends Controller {
 
    if (isset($q) && empty($r)) {
    					$query = jobsDb::where('title', '=', "{$q}")
-              ->orderBy('updated_at', 'DESC')->paginate(5);
+              ->orderBy('updated_at', 'DESC')->paginate(7);
 
              $results = $query;
 
@@ -49,7 +49,7 @@ class Search extends Controller {
    			}
    		if (isset($r) && empty($q)) {
    					$query = jobsDb::where('location', '=', "{$r}")
-              ->orderBy('updated_at', 'DESC')->paginate(5);
+              ->orderBy('updated_at', 'DESC')->paginate(7);
 
              $results = $query;
 
@@ -58,7 +58,7 @@ class Search extends Controller {
    			if(isset($q) && isset($r)){
    				$query = jobsDb::where('title', '=', "{$q}")
               ->where('location', '=', "{$r}")
-              ->orderBy('updated_at', 'DESC')->paginate(5);
+              ->orderBy('updated_at', 'DESC')->paginate(7);
 
              $results = $query;
 
@@ -70,7 +70,7 @@ class Search extends Controller {
     // $query = jobsDb::where('title', '=', "{$q}")
     //          ->where('location', '=', "{$r}")->orWhere('title', '=', "{$q}")
     //          ->orWhere('location', '=', "{$r}")
-    //          ->orderBy('updated_at', 'DESC')->paginate(5);  
+    //          ->orderBy('updated_at', 'DESC')->paginate(7);  
 
     // $jobcount = jobsDb::where('title', 'LIKE', "%{$q}%")
     //          ->orWhere('location', 'LIKE', "%{$r}%")->count();

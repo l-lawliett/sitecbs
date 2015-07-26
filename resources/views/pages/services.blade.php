@@ -83,7 +83,7 @@ Company:Choices Business Solutions
                                
                                
                             </script>
-                            <?php echo $results->render(); ?>
+                            
                         </section>
                             </div>
                                 
@@ -94,8 +94,9 @@ Company:Choices Business Solutions
                         </div> <!-- end: main -->
 
                     </div> <!-- end: container -->
-
-
+</br>
+&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp
+&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp <?php echo $results->render(); ?>
                     <div id="dialog" class="modal fade in">
                         <div class="modal-dialog">
                             <div class="modal-content">
