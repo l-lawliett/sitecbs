@@ -72,7 +72,8 @@ Company:Choices Business Solutions
                         <h4 class="con_title" >On-going Workforce Configuration</h4 >
                         <p>We help to transform your HR Function into a strategic business unit through: HR Restructuring, reviews of operational processes and procedures, aligning staff to strategy, getting maximum output from the human capital in your organization.</p>
                         <h4 class="con_title" >On-going Contract Management</h4 >
-                        <p>We deal with the administrative and legal challenges of managing employment contracts. We make sure that all your contracts are well with the limits of the law so that it doesn't cost you more in the long run. Your staff is contracted to Choice Business Solutions, and not to your organization, so you can operate your business with the comfort of having continuous protection and support thereby reducing the time taken on your side to manage the workforce as we conduct a systematic review which ensures that there is strict adherence to the law, manage your staff which are contracted through us; thus lowering your risk factors, maintain timely renewal of contract and management of expectations.</p>
+                        <p>We deal with the administrative and legal challenges of managing employment contracts.
+                         We make sure that all your contracts are within the limits of the law so that it doesn't cost you more in the long run. Your staff is contracted to Choice Business Solutions, and not to your organization, so you can operate your business with the comfort of having continuous protection and support thereby reducing the time taken on your side to manage the workforce as we conduct a systematic review which ensures that there is strict adherence to the law, manage your staff which are contracted through us; thus lowering your risk factors, maintain timely renewal of contract and management of expectations.</p>
                         <h4 class="con_title">On-going HR Administration</h4 >
                         <p>Human Resource administrative management, although important, is not directly linked to your core functions. We provide a more cost-effective way to ensure that all personnel matters are handled responsively and professionally by a team of human resources specialists that have the training and expertise needed to get the job done. We take care of your full HR needs, employee relations, disciplinary management, employee records, motivation and developmental initiatives, employment verification and leave management.</p>
                         <h4 class="con_title">On-going Benefits Management</h4 >
@@ -80,7 +81,7 @@ Company:Choices Business Solutions
                         <ul>
                             <li>We ensure that your staff are focused on getting the job done right, by taking care of all the things they care about:
                            <ul>
-                            <li>We ensure that your staff are focused on getting the job done right, by taking care of all the things they care about:</li>
+                            <li>We ensure that your staff are focused on getting the job done right, by taking care of all the things they care about.</li>
                             <li>We provide group Health Insurance so your staff never have to worry about how they are going to cover their medical bills.</li>
                             <li>We provide group Saving Scheme so that your staff doesn't have to worry about saving for a rainy day.</li>
                             <li>We provide group Pension Scheme so that your staff won’t have to worry about their golden years.</li>
