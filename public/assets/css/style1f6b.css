@@ -44,8 +44,8 @@ header
 .jobs #foyer
 {
     background-image: url(../img/girl-at-desk.jpg);
-    height: 180px; 
-    background-position: 0 50%;
+    height: 355px; 
+    /*background-position: 0 100%;*/
 }
 
 .job-view #foyer
@@ -227,7 +227,7 @@ ul#listings
     margin: 0;
     padding: 0;
     position: relative;
-    top:105px;
+    top:145px;
 }
 
 ul#listings li
@@ -374,8 +374,9 @@ span.timestamp
 
 .jobs-search-form
 {
-    margin-top: 40px;
-    top:140px;
+     margin-top: 40px;
+    top: 315px;
+
 }
 
 
