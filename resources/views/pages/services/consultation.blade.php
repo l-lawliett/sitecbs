@@ -74,7 +74,7 @@ Company:Choices Business Solutions
                         <div class="row-divider col-xs-12"></div>
 
                         <h2 class="con_title">Business Process Consulting</h2>
-                        <p>We help Businesses to do business better having had such a diverse client base and in depth operational knowledge of varying business areas and business practice we are used to we identify and define the processes that
+                        <p>We help Businesses to do business better by providing a diverse client base and in depth operational knowledge of various business areas and practices to identify and define the processes that
                          will increase efficiency and maximize the value delivered by an organization to its stakeholders.</p>
                      
                     </div>
