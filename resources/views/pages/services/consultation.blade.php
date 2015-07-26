@@ -17,7 +17,7 @@ Company:Choices Business Solutions
                     <div class="col-xs-12 col-md-9 pull-right">
 
 
-                        <h2 class="con_title">Our Leader</h2>
+                        <h2 class="con_title">Overview</h2>
                         <div class="row-divider col-xs-12"></div>
                         <p>Ms. Janet Smythe Malcolm is an industry leader in providing consulting expertise to our valued clients. 
                           With multiple projects under her belt, Choice Business Solutions through our CEO Janet Smythe Malcolm is poised to effectively
