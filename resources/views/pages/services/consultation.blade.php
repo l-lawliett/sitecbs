@@ -9,8 +9,8 @@ Company:Choices Business Solutions
 @section('content')
 <body class="consult">
 
-		 @include('pages.contentHeader')
-		  <div class="" id="foyer">
+         @include('pages.contentHeader')
+          <div class="" id="foyer">
         </div>
         <div class="container">
             <div class="clearfix" id="main">
@@ -74,8 +74,11 @@ Company:Choices Business Solutions
                         <div class="row-divider col-xs-12"></div>
 
                         <h2 class="con_title">Business Process Consulting</h2>
-                        <p>We help Businesses to do business better by providing a diverse client base and in depth operational knowledge of various business areas and practices to identify and define the processes that
-                         will increase efficiency and maximize the value delivered by an organization to its stakeholders.</p>
+                        <p>We help Businesses to do business better by providing a diverse client base and 
+                            in depth operational knowledge of various business areas and practices. Our services will
+                             identify and define the processes that
+                         will increase efficiency and maximize the value delivered by an
+                          organization to its stakeholders.</p>
                      
                     </div>
 
@@ -84,7 +87,7 @@ Company:Choices Business Solutions
                 </div> <!-- end: main -->
                 </div> <!-- end: container -->
 
-		 @include('pages.contentFooter')
+         @include('pages.contentFooter')
                 
 
 
