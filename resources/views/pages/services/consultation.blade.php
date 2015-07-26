@@ -74,15 +74,9 @@ Company:Choices Business Solutions
                         <div class="row-divider col-xs-12"></div>
 
                         <h2 class="con_title">Business Process Consulting</h2>
-                        <p>As business analysts, we identify and define the processes that will increase efficiency and maximize the value delivered by an organization to its stakeholders.</p>
-                        <p>We do:</p>
-                        <ul>
-                            <li>Business Process Modeling</li>
-                            <li>Business Solution Analysis</li>
-                            <li>Business requirement review</li>
-                            <li>Documentation and analysis</li>
-                            <li>Re-engineering</li>
-                        </ul>
+                        <p>We help Businesses to do business better having had such a diverse client base and in depth operational knowledge of varying business areas and business practice we are used to we identify and define the processes that
+                         will increase efficiency and maximize the value delivered by an organization to its stakeholders.</p>
+                     
                     </div>
 
                     
