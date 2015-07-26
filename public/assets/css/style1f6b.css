@@ -26,8 +26,7 @@ header
 }
 
 
-.front #foyer,
-#foyer
+.front #foyer
 {
     background: transparent url(../img/man-at-office2.jpg) no-repeat;
     background-size: cover;
@@ -39,6 +38,7 @@ header
 {
     background-image: url(../img/beaming-ladies.jpg);
     height: 180px;
+
 }
 
 .jobs #foyer

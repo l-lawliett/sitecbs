@@ -7,7 +7,7 @@ Company:Choices Business Solutions
 @extends('master')
 
 @section('content')
-	 <body class="jobs">
+     <body class="jobs">
 
       @if ($startNum == 2)
         @include('pages.headers.startHeaders.jobsHeader')
