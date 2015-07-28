@@ -95,8 +95,8 @@ Company:Choices Business Solutions
 
                     </div> <!-- end: container -->
 </br>
-&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp
-&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp <?php echo $results->render(); ?>
+<!-- &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp
+&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp <?php //echo $results->render(); ?> -->
                     <div id="dialog" class="modal fade in">
                         <div class="modal-dialog">
                             <div class="modal-content">
