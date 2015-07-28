@@ -32,7 +32,7 @@
                         <strong>Choice Business Solutions Ltd.</strong>
                         <br>
                         <i class="glyphicon glyphicon-home"></i>
-                        6 Sandhurst Crescent, Kingston 8, Jamaica
+                        6 Sandhurst Crescent, Kingston 6, Jamaica
                         <br>
                         <i class="glyphicon glyphicon-phone"></i>
                         (876) 978-2213 or (876) 927-4470
