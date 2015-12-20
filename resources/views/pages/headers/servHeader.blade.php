@@ -1,9 +1,9 @@
- <header class="clearfix">
+ <header class="clearfix navbar navbar-default navbar-fixed-top">
                 <div class="container">
      <div class="hidden-sm hidden-xs col-xs-12 col-md-3 pull-right">
         <div class="pull-right">
             <ul id="shortmenu" class="nav nav-pills">
-                                <li><a href="http://test3.choicebusinesssolutions.net"><i class="fa fa-sign-in"></i>&nbsp; Sign in/Sign Up</a></li>
+                                <li><a href="http://devlogin.choicebusinesssolutions.net"><i class="fa fa-sign-in"></i>&nbsp; Sign in/Sign Up</a></li>
                             </ul>
         </div>
     </div>
