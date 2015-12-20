@@ -51,4 +51,22 @@ class AuthController extends Controller {
 
     }
 
+
+    public function getLogin(){
+
+    		$title = "Login";
+
+
+    	return view('auth.login', compact('title'));
+    }
+
+
+
+    public function getRegister(){
+
+    		$title = "Register";
+
+    	return view('auth.register', compact('title'));
+    }
+
 }

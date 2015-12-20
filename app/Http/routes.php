@@ -11,7 +11,8 @@
 |
 */
 
-//Route::get('/', 'HomeController@index');
+//Route::get('/home', 'HomeController@index');
+
 Route::get('/', array('as'=>'home','uses'=>'WelcomeController@index'));
 Route::get('/search', array('as'=>'search','uses'=>'Search@search'));
 Route::get('/start', array('as'=>'start','uses'=>'Start@index'));
@@ -60,6 +61,12 @@ Route::get('/services/customerService', array('as'=>'cus','uses'=>'PageControlle
 Route::get('/projects', array('as'=>'proj','uses'=>'PageController@projects'));
 
 
+
+
+Route::get('/login', 'Auth\AuthController@getLogin');
+Route::get('/register', 'Auth\AuthController@getRegister');
+
+
 //start
 
 // Route::get('start/search', array('as'=>'search','uses'=>'Search@search'));
@@ -91,6 +98,6 @@ Route::get('/projects', array('as'=>'proj','uses'=>'PageController@projects'));
 
 
 Route::controllers([
-	'auth' => 'Auth\AuthController',
+	'login' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);

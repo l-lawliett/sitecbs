@@ -38,7 +38,7 @@ class HomeController extends Controller {
 		$jobs = jobsDb::All();
 		$name = 'hello';
 
-		return view('pages.test', compact('jobs'));
+		return view('home');
 	}
 
 
